@@ -85,6 +85,6 @@ bee_plot <-
        Visualisation: **@Scott_Hannah_v2**",
        )
 
-ggsave("2022/2022-week_02/plots/bee_plot.png", dpi = 320, width = 8, height = 6)
+ggsave("2022/2022-week_02/plots/bees.png", dpi = 320, width = 8, height = 6)
 
 
