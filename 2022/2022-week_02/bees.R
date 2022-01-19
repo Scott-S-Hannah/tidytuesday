@@ -1,9 +1,8 @@
 # load packages
 library(tidyverse)
 library(tidytuesdayR)
-library(geomtextpath)
-library(ggmap)
-libraray(ggtext)
+library(ggimage)
+library(ggtext)
 
 # load data and subset df
 df <- tt_load("2022-01-11")
@@ -28,7 +27,7 @@ mycolors <- c("#010600", "#E9B033")
 plot <- 
    df_colony_yearly_sum %>% 
    ggplot(aes(year, value, fill = name, colour = name, group = name)) +
-   geom_col() +
+   geom_col(width = 0.75) +
    scale_y_continuous(labels = scales::number_format(scale = 0.000001, suffix = "m"), breaks = seq(-2e6, 2e6, by = 250000)) +
    scale_x_continuous(breaks = c(2015, 2016, 2017, 2018, 2019, 2020, 2021)) +
    coord_flip() +
@@ -85,6 +84,6 @@ bee_plot <-
        Visualisation: **@Scott_Hannah_v2**",
        )
 
-ggsave("2022/2022-week_02/plots/bees.png", dpi = 320, width = 8, height = 6)
+ggsave("2022/2022-week_02/plots/bees.png", plot = bee_plot, dpi = 320, width = 8, height = 6)
 
 
