@@ -128,7 +128,7 @@ plot <-
    theme_ridges() +
    labs(
       title = "Which country produces the best chocolate <br>
-      with Venezuelian cocoa beans?",
+      with Venezuelan cocoa beans?",
       subtitle = "<b style ='color:#8d6852'>Average chocolate</b> rating for the top ten countires",
       caption = "Source: **Flavours of Cacao** |
       Visualisation: **@Scott_Hannah_v2**",
@@ -169,7 +169,7 @@ plot <-
          "Of course, the Swiss<br>
          produce some of <br>
          the best chocolate <br>
-         with Venezuelian beans"
+         with Venezuelan beans"
       ),
       color = "#4f1f10",
       fill = NA,
