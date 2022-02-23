@@ -25,3 +25,11 @@ Data: https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-
 [R Code here](2022/2022-week_04/board-games.R)
 
 ![2022/2022-week_04/plots/board-games.png](2022/2022-week_04/plots/board-games.png)
+
+## [2022-02-08](2022/2022-week_05)
+
+Data: https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-02-01
+
+[R Code here](2022/2022-week_05/dog-breeds.R)
+
+![2022/2022-week_05/plots/dog-breeds.png](2022/2022-week_05plots/dog-breeds.png)
